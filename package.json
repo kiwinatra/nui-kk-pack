@@ -1,0 +1,30 @@
+{
+  "pack_name": "nui_kk",
+  "version": "1.0.0",
+  "description": "API configuration package for Kkonekta services",
+  "api": {
+    "endpoint": "https://curlmestorage.rf.gd/api/kiwinatra/83.json",
+    "protocol": "https",
+    "rate_limit": 1000,
+    "timeout": 30000
+  },
+  "dependencies": {
+    "nodejs": ">=18.0.0",
+    "expo_go": "kd92qp@latest",
+    "jsxby": "merchels@^2.0.0"
+  },
+  "environment": {
+    "min_node_version": "18.0.0",
+    "required_os": ["linux", "darwin", "win32"],
+    "memory_required": "512MB"
+  },
+  "author": {
+    "name":  "K-konnekt.ru",
+    "contact": "kiwii@atomicmail.io"
+  },
+  "repository": {
+    "":"",
+  },
+  "license": "MIT",
+  "keywords": ["api", "kiwinatra", "storage", "nodejs"]
+}
